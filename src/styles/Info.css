@@ -1,4 +1,3 @@
-/* Общие стили */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -11,8 +10,6 @@ body {
     width: 100%;
     margin: 0 auto;
   }
-  
-  /* Секция Intro */
   .intro-section {
     display: flex;
     justify-content: space-between;
@@ -41,7 +38,6 @@ body {
     border-radius: 8px;
   }
   
-  /* Секция отзывов */
   .reviews-section {
     background-color: #000;
     color: #fff;
@@ -65,7 +61,6 @@ body {
     font-size: 0.9rem;
   }
   
-  /* Детали и изображение */
   .details-section {
     display: flex;
     align-items: center;
@@ -74,7 +69,7 @@ body {
   }
   
   .details-image img {
-    width: 45%;
+    width: 90%;
     border-radius: 8px;
   }
   

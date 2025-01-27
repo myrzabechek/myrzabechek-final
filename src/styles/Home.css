@@ -5,7 +5,7 @@
   }
   
   .image-section{
-    flex: 1;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +18,8 @@
   
   .text-section {
     flex: 1;
-    background-color: #8e6653;
-    padding: 50px   ;
+    background-color: brown;
+    padding: 50px ;
     display: flex;
     flex-direction: column;
     justify-content: center;

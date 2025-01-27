@@ -1,6 +1,6 @@
 import React from 'react';
-import bottleImage from './../img/ -6.jpg';
-import ingredientsImage from './../img/topi.jpg';
+import shop from "./../img2/COFFEE _ MINIMALISM.jpeg"
+import shop2 from "./../img2/二俣公一デザインの〈ブルーボトル〉が九州上陸。場所は福岡・天神エリアです。.jpeg"
 import "./../styles/Info.css"
 
 function Info() {
@@ -8,30 +8,24 @@ function Info() {
     <div className="page-container">
       <section className="intro-section">
         <div className="intro-text">
-          <h2>Добро пожаловать в мир Bubble Tea </h2>
-          <p>
+          <h2>Добро пожаловать в NURBAEV</h2>
+          <p >
           место, где каждый напиток превращается в настоящее произведение искусства.
-          </p>
-          <h2>Наши мастера с любовью готовят каждый заказ</h2>
-          <p>
-          Именно поэтому мы уделяем внимание каждой детали, <br /> начиная от выбора чая и заканчивая уникальными тапиоками, которые <br /> делают ваш бабл ти по-настоящему неповторимым.
-          </p>
-          <h2>Приятная атмосфера, свежие ингредиенты и широкий выбор вкусов</h2>
-          <p>каждый напиток — это новый опыт. Мы уверены, что каждый найдет <br /> здесь что-то для себя: от классических и проверенных вкусов <br /> до смелых и необычных сочетаний.</p>
+          </p>         
         </div>
         <div className="intro-image">
-          <img src={bottleImage} alt="Product Display" />
+          <img src={shop} alt="Product Display" />
         </div>
       </section>
 
       <section className="reviews-section">
         <div className="review">
-          <p>“Жизнь слишком коротка, чтобы пить скучный чай!”</p>
+          <p>“Жизнь слишком коротка, чтобы пить 3в1!”</p>
           <span>Шрек</span>
           <span>Verified Buyer</span>
         </div>
         <div className="review">
-          <p>“Мой напиток — мои правила. Бабл ти всегда прав.”</p>
+          <p>“Мой кофе — мои правила.  я всегда прав.”</p>
           <span>Осел из шрека</span>
           <span>Verified Buyer</span>
         </div>
@@ -44,15 +38,14 @@ function Info() {
 
       <section className="details-section">
         <div className="details-image">
-          <img src={ingredientsImage} alt="Ingredients" />
+          <img src={shop2} alt="Ingredients" />
         </div>
         <div className="details-text">
-          <h2>We do things differently than most producers</h2>
+          <h2>Целая сеть кофеен</h2>
           <p>
-            Our flavors are derived from real fruits, herbs, and botanicals, not ingredients from a lab. We leave out the artificial
-            ingredients and excess sugar, and tell you whats inside. Its a better way to drink.
+           Мы с трепетом следим за качеством каждого филиала нашей кофейни.
           </p>
-          <a href="#learn-more" className="learn-more-btn">Learn More</a>
+          <a href="#learn-more" className="learn-more-btn">Подробнее про второй филиал</a>
         </div>
       </section>
     </div>
